@@ -1,0 +1,19 @@
+name: columbia-rice-fields
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.8
+  - earthengine-api
+  - geemap
+#  - folium # included with geemap
+#  - ipyleaflet # included with geemap
+#  - pandoc # included in install
+#  - make # NOT included in install
+#  - autopep8 # NOT included in install
+#  - jupyterlab # Needed?
+#  - notebook # included in install
+#  - jupyter_contrib_nbextensions # included in install?
+#  - nbclean # NOT included in install
