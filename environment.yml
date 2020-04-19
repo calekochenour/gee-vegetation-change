@@ -1,4 +1,4 @@
-name: columbia-rice-fields
+name: gee-vegetation-change
 
 channels:
   - conda-forge
@@ -8,12 +8,7 @@ dependencies:
   - python=3.8
   - earthengine-api
   - geemap
-#  - folium # included with geemap
-#  - ipyleaflet # included with geemap
-#  - pandoc # included in install
+  - jupyter_contrib_nbextensions
+  - autopep8
+  
 #  - make # NOT included in install
-#  - autopep8 # NOT included in install
-#  - jupyterlab # Needed?
-#  - notebook # included in install
-#  - jupyter_contrib_nbextensions # included in install?
-#  - nbclean # NOT included in install
