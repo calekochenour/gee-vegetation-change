@@ -1,0 +1,6 @@
+# Compiled Python files
+__pycache__/
+
+# Jupyter Notebook
+#.ipynb
+.ipynb_checkpoints/
