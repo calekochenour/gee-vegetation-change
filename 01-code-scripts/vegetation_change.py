@@ -201,7 +201,7 @@ vis_params_ndvi_diff = {
     'palette': ['red', '#ece6d6', 'green']
 }
 
-vis_params_ndvi_sld = \
+vis_params_ndvi_diff_sld = \
     '<RasterSymbolizer>' + \
     '<ColorMap type="interval" extended="false" >' + \
     '<ColorMapEntry color="#d7191c" quantity="-2" label="0"/>' + \
