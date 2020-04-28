@@ -10,5 +10,3 @@ dependencies:
   - geemap
   - jupyter_contrib_nbextensions
   - autopep8
-  
-#  - make # NOT included in install
