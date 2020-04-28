@@ -51,25 +51,25 @@ jupyter notebook
 
 ## Run the Analysis
 
-Follow these steps upon completion of the *Binder Setup Instructions* or *Local Setup Instructions* to run the analysis in Jupyter Notebook:
+Follow these steps upon completion of the **Binder Setup Instructions** or **Local Setup Instructions** to run the analysis in Jupyter Notebook:
 
-Navigate to the `01-code-scripts` folder.
+* Navigate to the `01-code-scripts` folder;
 
-Click on `gee-vegetation-change-methods-columbia.ipynb` file to open in.
+* Click on `gee-vegetation-change-methods-columbia.ipynb` file to open it
 
-In cell 9 (code cell 3), change the `gee_username` to your GEE user name and change `gee_asset_folder` to an existing folder in your GEE Assets. The user name and folder will be used as the export destination for the results.
+* Change the `gee_username` variable to your GEE user name and change `gee_asset_folder` to an existing folder in your GEE Assets (Cell 9, Code Cell 3);
 
-From the top of the page, select the `Kernal` tab and then the `Restart & Run All` option.
+* Select the `Kernal` tab and then the `Restart & Run All` option from the top of the page;
 
-Select the `Restart and Run All Cells` button in the pop-up window.
+* Select the `Restart and Run All Cells` button in the pop-up window;
 
-The Jupyter Notebook will halt at cell 7 (code cell 2) and require authentication to GEE.
+* Click the hyperlink that appears (Cell 7, Code Cell 2), choose a GEE account/email to authenticate with, and select the `Allow` button to allow the Google Earth Engine Python Authenticator to access to your Google Account;
 
-Click the hyperlink that appears in cell 7 (code cell 2), choose a GEE account/email to authenticate with, and select the `Allow` button to allow the Google Earth Engine Python Authenticator to access to your Google Account.
+* Copy the authentication code that appears in the browser, return to the Jupyter Notebook tab, and paste the authentication code into the `Enter verification code` field that appears (Cell 7, Code Cell 2); and,
 
-Copy the authentication code from the browser, return to the Jupyter Notebook tab, and paste the code into the `Enter verification code` field that appears in cell 7 (code cell 2).
+* Press `return`/`enter` to authenticate and run the remainder of the Jupyter Notebook cells.
 
-Press return/enter, and the workflow will continue (remainder of the cells will run) if the authentication succeeds.
+If the user specified an existing GEE Assets folder and succesfully authenticated to GEE, the workflow will run all code and display the results of the analysis in an interactive map.
 
 ## Contents
 
