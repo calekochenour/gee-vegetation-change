@@ -55,15 +55,15 @@ Follow these steps upon completion of the **Binder Setup Instructions** or **Loc
 
 * Navigate to the `01-code-scripts` folder;
 
-* Click on `gee-vegetation-change-methods-columbia.ipynb` file to open it
+* Click on the `gee-vegetation-change-methods-columbia.ipynb` file;
 
-* Change the `gee_username` variable to your GEE user name and change `gee_asset_folder` to an existing folder in your GEE Assets (Cell 9, Code Cell 3);
+* Change the `gee_username` variable to a valid GEE user name and change `gee_asset_folder` to an existing folder in the account's GEE Assets (Cell 9, Code Cell 3);
 
-* Select the `Kernal` tab and then the `Restart & Run All` option from the top of the page;
+* Select the `Kernal` tab and then the `Restart & Run All` option from the top of the browser page;
 
 * Select the `Restart and Run All Cells` button in the pop-up window;
 
-* Click the hyperlink that appears (Cell 7, Code Cell 2), choose a GEE account/email to authenticate with, and select the `Allow` button to allow the Google Earth Engine Python Authenticator to access to your Google Account;
+* Click the hyperlink that appears (Cell 7, Code Cell 2), choose a GEE account/email to authenticate with, and select the `Allow` button to allow the Google Earth Engine Python Authenticator to access the GEE Account;
 
 * Copy the authentication code that appears in the browser, return to the Jupyter Notebook tab, and paste the authentication code into the `Enter verification code` field that appears (Cell 7, Code Cell 2); and,
 
