@@ -71,8 +71,6 @@ Follow these steps upon completion of the **Binder Setup Instructions** or **Loc
 
 If the user specified an existing GEE Assets folder and succesfully authenticated to GEE, the workflow will run all code and display the results of the analysis in an interactive map.
 
-# ![Vegetation Change Results Demo](https://media.giphy.com/media/ls4jRTKXrpeZ5NQRWs/giphy.gif)
-
 ## Contents
 
 The project contains folders for all stages of the workflow as well as other files necessary to run the analysis.
