@@ -71,6 +71,14 @@ Follow these steps upon completion of the **Binder Setup Instructions** or **Loc
 
 If the user specified an existing GEE Assets folder and succesfully authenticated to GEE, the workflow will run all code and display the results of the analysis in an interactive map.
 
+## Demos
+
+### Run Analysis
+
+### View Results
+
+![View Results Demo](02-workflow-demos/gee-vegetation-change-demo-view-results.gif)
+
 ## Contents
 
 The project contains folders for all stages of the workflow as well as other files necessary to run the analysis.
@@ -78,6 +86,10 @@ The project contains folders for all stages of the workflow as well as other fil
 ### `01-code-scripts/`
 
 Contains all Python scripts and Jupyter Notebooks required to run the analysis.
+
+### `02-workflow-demos`
+
+Contains all .gif files for workflow demonstrations.
 
 ### `environment.yml`
 
