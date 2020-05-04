@@ -89,7 +89,7 @@ The project contains folders for all stages of the workflow as well as other fil
 
 Contains all Python scripts and Jupyter Notebooks required to run the analysis.
 
-### `02-workflow-demos`
+### `02-workflow-demos/`
 
 Contains all files for workflow demonstrations.
 
