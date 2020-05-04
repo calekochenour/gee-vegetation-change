@@ -2,7 +2,7 @@
 
 This directory contains the code to produce a vegetation change analysis of a study area in the Tolima Department, Columbia. The workflow computes the NDVI difference between peak green and post-harvest imagery and classifies change based on NDVI thresholds.
 
-## Prerequisites
+## 1. Prerequisites
 
 To run this analysis locally or online with Binder, you will need:
 
@@ -12,12 +12,12 @@ If running this locally, you will also need:
 
  * Conda ([Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://docs.anaconda.com/anaconda/install/))
 
-## Binder Setup Instructions
+## 2. Binder Setup Instructions
 To run this analysis in a web browser, click the icon below to launch the project with Binder:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/calekochenour/gee-vegetation-change/master)
 
-## Local Setup Instructions
+## 3. Local Setup Instructions
 
 To run this analysis from a terminal, navigate to the folder containing the local repository.
 
@@ -49,7 +49,7 @@ Open Jupyter Notebook:
 jupyter notebook
 ```
 
-## Run the Analysis
+## 4. Run the Analysis
 
 Follow these steps upon completion of the **Binder Setup Instructions** or **Local Setup Instructions** to run the analysis in Jupyter Notebook:
 
@@ -71,15 +71,17 @@ Follow these steps upon completion of the **Binder Setup Instructions** or **Loc
 
 If the user specified an existing GEE Assets folder and succesfully authenticated to GEE, the workflow will run all code and display the results of the analysis in an interactive map.
 
-## Demos
+## 5. Demos
 
 ### Run Analysis
+
+![Run Analysis Demo](02-workflow-demos/gee-vegetation-change-demo-run-analysis.gif)
 
 ### View Results
 
 ![View Results Demo](02-workflow-demos/gee-vegetation-change-demo-view-results.gif)
 
-## Contents
+## 6. Contents
 
 The project contains folders for all stages of the workflow as well as other files necessary to run the analysis.
 
@@ -89,7 +91,7 @@ Contains all Python scripts and Jupyter Notebooks required to run the analysis.
 
 ### `02-workflow-demos`
 
-Contains all .gif files for workflow demonstrations.
+Contains all files for workflow demonstrations.
 
 ### `environment.yml`
 
