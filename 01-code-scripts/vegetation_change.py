@@ -393,7 +393,7 @@ vis_params_rgb = {
     'max': 2500
 }
 
-# Landsat 8 nir/reg/gree (CIR)
+# Landsat 8 nir/reg/green (CIR)
 vis_params_cir = {
     'bands': ['B5', 'B4', 'B3'],
     'min': 0,
